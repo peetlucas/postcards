@@ -35,7 +35,7 @@
           </div>
           </td>
           <td class="px-4 py-4 border-t border-b border-gray-300 text-lg">
-            <a href="/postcards/{{$postcard->id}}/edit" class="text-blue-400 px-6 py-2 rounded-xl"><i
+            <a href="/postcards/{{$postcard->id}}/edit" class="text-blue-600 px-6 py-2 rounded-xl"><i
                 class="fa-solid fa-pen-to-square"></i>
               Edit</a>
           </td>
