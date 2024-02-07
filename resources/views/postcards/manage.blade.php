@@ -39,7 +39,7 @@
                 class="fa-solid fa-pen-to-square"></i>
               Edit</a>
           </td>
-          <td class="px-4 py-4 border-t border-b border-gray-300 text-lg">
+          <td class="px-4 py-4 border-t border-b border-gray-700 text-lg">
             <form method="POST" action="/postcards/{{$postcard->id}}">
               @csrf
               @method('DELETE')
