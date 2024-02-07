@@ -26,7 +26,7 @@
               <li>
                 @if(isset($postcards))
                   @if($postcards->currentPage() > 1)  
-                    <a href="{{ $postcards->previousPageUrl() }}" class="text-sm font-medium text-gray-500 hover:text-gray-700">| Previous</a>
+                    <a href="{{ $postcards->previousPageUrl() }}" class="text-sm font-medium text-gray-400 hover:text-gray-700">| Previous</a>
                   @endif
                                 
                   @if($postcards->hasMorePages())                                    
