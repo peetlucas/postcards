@@ -43,7 +43,9 @@
             <form method="POST" action="/postcards/{{$postcard->id}}">
               @csrf
               @method('DELETE')
-              <button class="text-purple-500"><i class="fa-solid fa-trash"></i> Delete</button>
+
+              <button class="text-blue-500"><i class="fa-solid fa-trash"></i> Delete</button>
+
             </form>
           </td>
         </tr>       
