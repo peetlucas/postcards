@@ -20,7 +20,7 @@
             <ol role="list" class="flex items-center space-x-4">
               <li>
                 <div>
-                  <a href="/" class="text-sm font-medium text-gray-500 hover:text-gray-700">Home   </a>
+                  <a href="/" class="text-sm font-medium text-gray-500 hover:text-gray-700">Postcards Home  </a>
                 </div>
               </li>
               <li>
